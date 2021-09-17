@@ -1,4 +1,4 @@
-# Rocketseat-Ignite-ReactJS - 2021
+# Fundamentos-React-JS - Rocketseat
 
 > Este curso está sendo de enorme valia para  a minha vida de formação e profissional. 
 <hr>
