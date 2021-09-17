@@ -1,0 +1,12 @@
+{
+  "name": "Fundamentos-React-JS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DIGOARTHUR/Fundamentos-React-JS.git",
+  "author": "Diego Arthur <digo.arthur@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
