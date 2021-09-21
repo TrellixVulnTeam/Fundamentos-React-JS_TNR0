@@ -121,9 +121,10 @@ Para inicializar projetos que envolvam JS <React, Node, React Native>, criamos o
  - webpack.config.js  (Vide Arquivo)
      >aqui ficará contido todas as configurações.
 
-###  2.  style e css (Biblioteca)
+###  2.  style , css (Biblioteca)
 	yarn add style-loader -D
 	yarn add css-loader -D
+	yarn add sass-loader -D
 	
  - nome_modules > css-loader
  - nome_modules > style-loader
@@ -132,11 +133,28 @@ Para inicializar projetos que envolvam JS <React, Node, React Native>, criamos o
 - package.json 
    - style-loader: "versão"
      > 
-    - css-loader
-   
+    - css-loader: "versão"
+     >     
+    - sass-loader: "versão"
+     > 
 
 
 		new folder
 	
  -  styles  (Vide Pasta)
-     > aqui é onde fica todo o código criado pelo o desenvolvedor, principalmente o código JS.
+
+
+###  2.  Sass (Biblioteca)
+	yarn add node-sass -D
+	yarn add sass-loader -D
+	
+ - nome_modules > sass
+ - nome_modules > sass-loader
+     >  
+
+- package.json 
+   - style-loader: "versão"
+     > 
+    - css-loader: "versão"
+     >     
+    - sass-loader: "versão"
