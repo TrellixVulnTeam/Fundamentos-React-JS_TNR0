@@ -158,3 +158,13 @@ Para inicializar projetos que envolvam JS <React, Node, React Native>, criamos o
     - css-loader: "versão"
      >     
     - sass-loader: "versão"
+
+###  2.  React Refresh (Biblioteca)
+	yarn add -D @pmmmwh/react-refresh-webpack-plugin react-refresh
+	
+
+ - nome_modules > react-refresh
+     >  Um novo plugin no Webpack que irá possibilitar fazermos alterações no código sem que o webpack restaure seu estado de navegação e propriedades. Isso nos ajuda principalmente quando estamos desenvolvendo ou corrigindo alguma parte da aplicação que precisa passar por etapas de navegação e mudanças de estado, como por exemplo o carrinho de compras de um e-commerce.
+
+- package.json 
+   
